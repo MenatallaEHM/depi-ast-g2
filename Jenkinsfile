@@ -27,7 +27,7 @@ stages{
               """
             }
         }
-       stage("build docker")
+       stage("deploy")
        {
            steps{
             sh """
