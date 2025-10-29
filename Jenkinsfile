@@ -10,7 +10,7 @@ stages{
        {
            steps{
             sh """
-                  docker build -t docker.io/MenatallaEHM/myapp:v1
+                  docker build -t docker.io/MenatallaEHM/myapp:v1 .
               """
             }
         }
