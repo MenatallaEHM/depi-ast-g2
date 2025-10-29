@@ -22,7 +22,7 @@ stages{
               """
             }
         }
-       stage("build docker")
+       stage("build2")
        {
            steps{
             sh """
