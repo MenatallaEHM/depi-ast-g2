@@ -1,16 +1,16 @@
 pipeline {
 agent any
 
-tools{
-   nodejs 'node25'
-}
+//tools{
+//   nodejs 'node25'
+//}
 stages{
 
-     stage("bulid")
+     stage("bulid docker")
        {
            steps{
             sh """
-                  npm -v
+                  docker build -t docker.io/MenayallaEHM/myapp:vi
               """
             }
         }
